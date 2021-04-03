@@ -1,0 +1,29 @@
+Paso 1. Posicionarse dentro de la carpeta del proyecto y dar clic derecho
+Paso 2. Seleccionar la opción de GitBash Here para que se abra la consola de comandos de git en la ruta actual
+Paso 3. Inicializar el seguimiento de git al directorio actual
+	git init 
+Paso 4. Agregar un archivo (p. ej. index.html) 
+Paso 5. para revisar el estatus de los archivos. Para la primera vez se observarán signos de interrogación a un lado del archivo debido a que git aún no inicia seguimiento del archivo
+	git status -s 
+Paso 6. Antes de agregar el archivo se requiere autenticar con los sig. comandos:
+	git config --global user.mail "mi_email@ejemplo.com"
+	git config --global user.name "mi_user_name"
+Paso 7. Agregar el archivo al staging de git con el siguiente comando:
+	git add index.html
+Paso 8. Agregar el archivo al repositorio de git:
+	git commit -m "Descripción de la acción"
+Paso 9. Revisar nuevamente el estatus de los archivos (Se observará que index.html ya no aparece)
+	git status -s
+Paso 10. Agregar una linea en el archivo index.html y guardar cambios
+Paso 11. Revisar el estatus de los archvos (Se observará una M en color rojo a un lado de index.html indicando que existen cambios no respaldados
+	git status -s
+Paso 12. Agregar el archivo index.html a staging de git (Aparecerá una M ebn color verde indicando que esta listo para subir al respositorio)
+	git add index.html
+Paso 13. Agregar el archivo index.html al repositorio
+	git commit -m "Descripción del cambio"
+Paso 14. Para revisar todos los cambios realizados:
+	git log --oneline
+Paso 15. Regresar el archivo a un estado anterior (29d98ec es el ID del cambio Git)
+	git reset --hard 29d98ec
+Paso 16. Revisar la lista de cambios nuevamente (Se observará que el último cambio realizado anteriormente ya no existe)
+	git log --oneline
