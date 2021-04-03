@@ -1,0 +1,7 @@
+Clase 03 - Subiendo A GitHub
+
+Comando: git add .
+Subir al área stage todos los archivos
+
+Comando: git commit -am "Descripción del cambio"
+Agregar todos los archivos al área stage y dar commit al mismo tiempo
