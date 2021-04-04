@@ -1,0 +1,13 @@
+Si se modifican archivos que ya se subieron previamente al repositorio, deberá verificar el estatus previamente y subir al área stage
+
+Verificar status:
+git status -s
+
+Subir todos los cambios al área stage
+git add .
+
+Subir todos los cambios al repositorio
+git commit -m "Descripción"
+
+Subir los cambios al repositorio GitHub
+gut push origin master
