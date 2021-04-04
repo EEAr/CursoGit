@@ -14,3 +14,15 @@ git push origin master
 
 Para bajar cambios desde el repositorio de GitHub
 git pull origin master
+
+Para agregar un tag indicando versión estable
+git tag 04-04-2021v1 -m "Descripción del tag"
+
+Para revisar el estatus del tag sobre la rama master
+git log --oneline
+
+Para agregar el tag al repositorio remoto
+git push origin master --tags
+
+Para clonar el repositorio en nuestro equipo deberá abrir una consola de Git sobre el directorio donde se desea clonar
+git clone https://github.com/...
