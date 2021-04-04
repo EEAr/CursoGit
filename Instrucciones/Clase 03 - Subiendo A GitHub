@@ -5,3 +5,10 @@ Subir al área stage todos los archivos
 
 Comando: git commit -am "Descripción del cambio"
 Agregar todos los archivos al área stage y dar commit al mismo tiempo
+
+Crear un repositorio en GitHub
+Ejecutar: git remote add origin https://github.com/ranesiddhesh1511/ToolPathGenerator.git
+Agregará todo el directrorio al repositorio
+
+Ejecutar: git push origin master
+Agregará todos los archivos a la rama master. Solicitará firmarse si es la primera vez.
