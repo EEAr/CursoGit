@@ -10,4 +10,7 @@ Subir todos los cambios al repositorio
 git commit -m "Descripción"
 
 Subir los cambios al repositorio GitHub
-gut push origin master
+git push origin master
+
+Para bajar cambios desde el repositorio de GitHub
+git pull origin master
