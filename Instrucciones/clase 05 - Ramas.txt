@@ -1,0 +1,11 @@
+1. Crear una rama llamada javascript
+
+git branch javascript
+
+2. Verificar cuantas ramas hay y en cuál estamos (git señala la rama actual)
+
+git branch
+
+3. Cambiar a la rama javascript
+
+git checkout javascript
