@@ -1,0 +1,25 @@
+Crear una rama para generar un fix a partir de la rama master
+
+1. Posicionarse en la rama master
+git checkout master
+
+2. Creae una rama 
+git checkout B_fix0056
+
+3. Posicionarse en la nueva rama
+git checkout B_fix0056
+
+4. Agregar una linea en la función del archivo js
+
+5. Agregar cambios al área stage
+git add .
+
+6. Confirmar cambios
+git commit -m "Fix del archivo js"
+
+7. Hacer merge con rama master (unificar cambios de fix con master)
+git merge master
+
+8. Eliminar rama fix
+git branch -d B_fix0056
+
