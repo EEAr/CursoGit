@@ -18,7 +18,8 @@ git add .
 git commit -m "Fix del archivo js"
 
 7. Hacer merge con rama master (unificar cambios de fix con master)
-git merge master
+git checkout master
+git merge B_fix0056
 
 8. Eliminar rama fix
 git branch -d B_fix0056
